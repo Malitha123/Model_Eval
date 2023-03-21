@@ -1,5 +1,3 @@
-
-
 ## Setup
 
 We recommend creating a `conda` environment and installing dependencies in it by using:
@@ -91,6 +89,9 @@ The expected directory hierarchy is as follow:-->
 
 ## Experiments
 
+* Download pretrain weights for each method from [here](https://surfdrive.surf.nl/files/index.php/s/Zw9tbuOYAInzVQC) and unzip it. It contains Kinetics-400 pretrained R(2+1D)-18 weights
+
+* create 3 folders naming 'checkpoints', "checkpoints_direct", "checkpoints_linear". Relevant weight files will be saved in these locations.
 
 * For finetuning pretrained models use the bash file of train_full_fine_tune.sh. Then run the evaluation_full_finetune.sh
 
