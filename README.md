@@ -10,9 +10,15 @@ pip install -r requirements.txt
 
 We run our experiments on Python 3.7 and PyTorch 1.6. 
 
-## Evaluated VSSL models
+
+## Evaluated models
 
 * you need the pre-trained checkpoints for each method at  path `../checkpoints_pretraining/`
+
+* Download pretrain weights for each method from [here](https://surfdrive.surf.nl/files/index.php/s/Zw9tbuOYAInzVQC) and unzip it. It contains Kinetics-400 pretrained R(2+1D)-18 weights
+
+* create 3 folders naming 'checkpoints', "checkpoints_direct", "checkpoints_linear" inside the 'action_recognition'. Relevant weight files will be saved in these locations.
+
 
 ## Dataset Preparation
 
@@ -89,9 +95,6 @@ The expected directory hierarchy is as follow:-->
 
 ## Experiments
 
-* Download pretrain weights for each method from [here](https://surfdrive.surf.nl/files/index.php/s/Zw9tbuOYAInzVQC) and unzip it. It contains Kinetics-400 pretrained R(2+1D)-18 weights
-
-* create 3 folders naming 'checkpoints', "checkpoints_direct", "checkpoints_linear". Relevant weight files will be saved in these locations.
 
 * For finetuning pretrained models use the bash file of train_full_fine_tune.sh. Then run the evaluation_full_finetune.sh
 
