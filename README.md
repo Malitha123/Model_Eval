@@ -18,7 +18,7 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 * Download pretrain weights for each method from [here](https://surfdrive.surf.nl/files/index.php/s/Zw9tbuOYAInzVQC) and unzip it. It contains Kinetics-400 pretrained R(2+1D)-18 weights
 
 * Create a 'jobs' folder and subdirectories as follows to run slurms files. 
-
+```
 ├── jobs
 │   ├──direct_evaluation_results
 │   ├──full_fine_tune_evaluation_results
@@ -39,7 +39,7 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 │   │   ├── direct
 │   │   ├── linear
 
-
+```
 
 ## Dataset Preparation
 
