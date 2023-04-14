@@ -17,7 +17,28 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 
 * Download pretrain weights for each method from [here](https://surfdrive.surf.nl/files/index.php/s/Zw9tbuOYAInzVQC) and unzip it. It contains Kinetics-400 pretrained R(2+1D)-18 weights
 
-* create 3 folders naming 'checkpoints', "checkpoints_direct", "checkpoints_linear" inside the 'action_recognition'. Relevant weight files will be saved in these locations.
+* Create a 'jobs' folder and subdirectories as follows to run slurms files. 
+
+├── jobs
+│   ├──direct_evaluation_results
+│   ├──full_fine_tune_evaluation_results
+│   ├──linear_fine_tune_results
+│   ├──outs
+│   ├──results_file
+│   ├──slurms
+
+* Create a 'training_checkpoints' folder and subdirectories as follows to save checkpoints.
+
+├── training_checkpoints
+│   ├──ssv2
+│   │   ├── full_fine_tune
+│   │   ├── direct
+│   │   ├── linear
+│   ├──ntu60
+│   │   ├── full_fine_tune
+│   │   ├── direct
+│   │   ├── linear
+
 
 
 ## Dataset Preparation
