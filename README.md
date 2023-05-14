@@ -20,16 +20,15 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 * Create a 'jobs' folder and subdirectories as follows to run slurms files. 
 ```
 ├── jobs
-│   ├──direct_evaluation_results
+│   ├──csvs
 │   ├──full_fine_tune_evaluation_results
 │   ├──linear_fine_tune_results
 │   ├──outs
-│   ├──results_file
 │   ├──slurms
 
-* Create a 'training_checkpoints' folder and subdirectories as follows to save checkpoints.
+* Create a 'checkpoints' folder and subdirectories as follows to save checkpoints.
 
-├── training_checkpoints
+├── checkpoints
 │   ├──ssv2
 │   │   ├── full_fine_tune
 │   │   ├── direct
@@ -55,7 +54,7 @@ The datasets can be downloaded from the following links:
 The expected directory hierarchy is as follow:-->
 * We expect a directory hierarchy as below. After downloading the datasets from the original sources, please update the data and annotation paths for each dataset in the respective dataloader scripts e.g datasets/ucf.py, datasets/something.py, datasets/gym_99.py, etc. 
 ```
-├── datasets_root
+├── data
 │   ├──ucf101
 │   │   ├── ucfTrainTestlist
 │   │   │   ├── classInd.txt
