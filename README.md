@@ -116,8 +116,10 @@ The expected directory hierarchy is as follow:-->
 ## Experiments
 
 
-* For finetuning pretrained models use the bash file of train_full_fine_tune.sh. Then run the evaluation_full_finetune.sh
+* For finetuning pretrained models use the bash file of multi_job_full_fine_tune.sh
 
-* For linear evaluation pretrained models use the bash file of train_linear_fine_tune.sh. Then run the evaluation_linear.sh
+* For linear evaluation pretrained models use the bash file of multi_job_full_fine_tune.sh
 
-* For direct evaluation pretrained models use the bash file of evaluation_direct.sh
+
+
+This project is built upon [SEVERE-Benchmark](https://github.com/fmthoker/SEVERE-BENCHMARK/tree/main/action_recognition). Thanks to the contributors of these great codebases.
