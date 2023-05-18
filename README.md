@@ -32,9 +32,7 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 │   ├──ssv2
 │   │   ├── full_fine_tune
 │   │   ├── linear
-│   ├──ntu60
-│   │   ├── full_fine_tune
-│   │   ├── linear
+
 
 ```
 
@@ -53,27 +51,6 @@ The expected directory hierarchy is as follow:-->
 * We expect a directory hierarchy as below. After downloading the datasets from the original sources, please update the data and annotation paths for each dataset in the respective dataloader scripts e.g datasets/ucf.py, datasets/something.py, datasets/gym_99.py, etc. 
 ```
 ├── data
-│   ├──ucf101
-│   │   ├── ucfTrainTestlist
-│   │   │   ├── classInd.txt
-│   │   │   ├── testlist01.txt
-│   │   │   ├── trainlist01.txt
-│   │   │   └── ...
-│   │   └── UCF-101
-│   │       ├── ApplyEyeMakeup
-│   │       │   └── *.avi
-│   │       └── ...
-│   ├──gym
-│   │   ├── annotations
-│   │   │   ├── gym99_train.txt
-│   │   │   ├── gym99_val.txt 
-│   │   │   ├── gym288_train.txt
-│   │   │   ├── gym288_val.txt
-│   │   │   └──
-│   │   └── videos
-│   │       ├── *.avi
-│   │       └── ...
-│   │
 │   │──smth-smth-v2
 │   │   ├── something-something-v2-annotations
 │   │   │   ├── something-something-v2-labels.json
@@ -84,30 +61,6 @@ The expected directory hierarchy is as follow:-->
 │   │   └── something-something-v2-videos_avi
 │   │       └── *.avi
 │   │          
-│   ├──ntu60
-│   │   ├── ntu_60_cross_subject_TrainTestlist
-│   │   │   ├── classInd.txt
-│   │   │   ├── testlist01.txt
-│   │   │   ├── trainlist01.txt
-│   │   │   └── ...
-│   │   └── videos
-│   │       ├── brushing_hair
-│   │       │   └── *.avi
-│   │       ├── brushing_teeth
-│   │       │   └── *.avi
-│   │       └── ...
-│   │
-│   ├──kinetics-400
-│   │   ├── labels
-│   │   │   ├── train_videofolder.txt
-│   │   │   ├── val_videofolder.txt
-│   │   │   └── ...
-│   │   └── VideoData
-│   │       ├── playing_cards
-│   │       │   └── *.avi
-│   │       ├── singing
-│   │       │   └── *.avi
-│   │       └── ...
 └── ...
 ```
 
