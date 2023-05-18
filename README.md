@@ -31,11 +31,9 @@ We run our experiments on Python 3.7 and PyTorch 1.6.
 ├── checkpoints
 │   ├──ssv2
 │   │   ├── full_fine_tune
-│   │   ├── direct
 │   │   ├── linear
 │   ├──ntu60
 │   │   ├── full_fine_tune
-│   │   ├── direct
 │   │   ├── linear
 
 ```
