@@ -2,10 +2,6 @@
 
 The code in this repo is a clone from [https://github.com/facebookresearch/SlowFast](https://github.com/facebookresearch/SlowFast) and adapted to train on the EPIC-KITCHENS-100 dataset. Particularly:
 
-- We added a dataloader for EPIC-KITCHENS-100
-- We added a training configuration file for EPIC-KITCHENS-100
-- We adapted the code to train on verb+noun as multi-task learning
-
 All the code to support EPIC-KITCHENS-100 is written by [Evangelos Kazakos](https://github.com/ekazakos).
 
 ## Citing
