@@ -30,6 +30,10 @@ Below are the video self-supervised methods  that we evaluate for [SSv2](https:/
 - [SSv2](https://github.com/Malitha123/Model_Eval/tree/main/Eval_SSv2_Dataset)
 - [EK-100](https://github.com/Malitha123/Model_Eval/tree/main/Eval_Epic_Kitchens_Dataset)
 
+### Acknowledgments
+This research was supported by the joint grant P007 from [Mohamed Bin Zayed University of Artificial Intelligence](https://mbzuai.ac.ae/)  and the [Weizmann Institute of Science](https://www.weizmann.ac.il/pages/). The authors would like to express their sincere gratitude for this generous support, which made the study possible.
+
+### Citing
 If you find our work useful, please consider citing our paper:
 ```
 @misc{gunawardhana2024effectiveselfsupervisedmodelscontact,
